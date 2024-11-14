@@ -9,4 +9,8 @@ public abstract class RoomElement {
 
     public RoomElement(int id, BigDecimal price, String name) {
     }
+
+    public BigDecimal getPrice() {
+        return price;
+    }
 }
